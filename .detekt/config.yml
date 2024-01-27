@@ -70,7 +70,7 @@ complexity:
     ignoreSimpleWhenEntries: false
   LabeledExpression:
     active: false
-    ignoredLabels: ""
+    ignoredLabels: [""]
   LargeClass:
     active: true
     threshold: 600
@@ -144,7 +144,7 @@ exceptions:
   active: true
   ExceptionRaisedInUnexpectedLocation:
     active: false
-    methodNames: 'toString,hashCode,equals,finalize'
+    methodNames: ['toString','hashCode','equals','finalize']
   InstanceOfCheckForException:
     active: false
     excludes: "**/test/**,**/androidTest/**,**/*.Test.kt,**/*.Spec.kt,**/*.Spek.kt"
@@ -159,7 +159,7 @@ exceptions:
     ignoreLabeled: false
   SwallowedException:
     active: false
-    ignoredExceptionTypes: 'InterruptedException,NumberFormatException,ParseException,MalformedURLException'
+    ignoredExceptionTypes: ['InterruptedException','NumberFormatException','ParseException','MalformedURLException']
     allowedExceptionNameRegex: "^(_|(ignore|expected).*)"
   ThrowingExceptionFromFinally:
     active: false
@@ -167,7 +167,7 @@ exceptions:
     active: false
   ThrowingExceptionsWithoutMessageOrCause:
     active: false
-    exceptions: 'IllegalArgumentException,IllegalStateException,IOException'
+    exceptions: ['IllegalArgumentException','IllegalStateException','IOException']
   ThrowingNewInstanceOfSameException:
     active: false
   TooGenericExceptionCaught:

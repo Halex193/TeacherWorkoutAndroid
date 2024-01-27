@@ -13,8 +13,8 @@ allprojects {
 }
 
 buildscript {
-    val kotlinVersion by extra("1.9.10")
-    val androidGradleVersion by extra("8.1.2")
+    val kotlinVersion by extra("1.9.22")
+    val androidGradleVersion by extra("8.2.1")
 
     repositories {
         google()

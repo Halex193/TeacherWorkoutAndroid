@@ -45,8 +45,9 @@ object Dependencies {
         }
 
         object Compose {
-            const val VERSION = "1.5.3"
-            private const val ACCOMPANIST_PAGER_VERSION = "0.32.0"
+            private const val VERSION = "1.6.0"
+            const val COMPILER = "1.5.8"
+            private const val ACCOMPANIST_PAGER_VERSION = "0.34.0"
             private const val CONSTRAINTLAYOUT_VERSION = "1.0.1"
 
             const val UI = "androidx.compose.ui:ui:$VERSION"

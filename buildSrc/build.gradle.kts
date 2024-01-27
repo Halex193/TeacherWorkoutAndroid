@@ -12,12 +12,12 @@ repositories {
 }
 
 object PluginsVersions {
-    const val GRADLE_ANDROID = "8.1.2"
+    const val GRADLE_ANDROID = "8.2.1"
     const val UPDATE_VERSIONS = "0.49.0"
-    const val KOTLIN = "1.9.10"
-    const val NAVIGATION = "2.7.5"
+    const val KOTLIN = "1.9.22"
+    const val NAVIGATION = "2.7.6"
     const val SPOTLESS = "5.7.0"
-    const val DETEKT = "1.14.2"
+    const val DETEKT = "1.23.4"
 }
 
 dependencies {
